@@ -50,3 +50,18 @@
 
 
 }
+
+
+/* Breakpoint xl */
+@media (min-width: 1200px) {
+
+    .jumbotron{
+        height: 55vh;
+    }
+
+    /* Header - Jumbotron */
+    .contenido-jumbotron {
+        margin-bottom: 100px;
+    }
+
+}
