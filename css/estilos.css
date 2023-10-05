@@ -1,3 +1,7 @@
+.navbar {
+    background-color: #353b41 !important;
+}
+
 .navbar-logo__img {
-    width: 90px;
+    width: 85px;
 }
