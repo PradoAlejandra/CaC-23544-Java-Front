@@ -1,7 +1,52 @@
+/* Navbar */
+
 .navbar {
     background-color: #353b41 !important;
 }
 
 .navbar-logo__img {
     width: 85px;
+}
+
+
+/* Header - Jumbotron */
+
+.contenedor-jumbotron {
+    margin-top:74.7px;
+}
+
+.jumbotron {
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/ba1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+/* Breakpoint lg */
+
+@media (min-width: 992px) {
+
+    /* Header - Jumbotron */
+    .contenido-jumbotron {
+        width: 50%;
+        margin-right: 48px;
+        margin-bottom: 65px;
+    }
+
+    .contenido-jumbotron>h1{
+        font-size: 27px;;
+    }
+
+
+
 }
