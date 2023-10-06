@@ -24,10 +24,40 @@
     background-repeat: no-repeat;
 }
 
+/* Main */
+
+/* Oradores */
+.titulo-oradores>span:nth-child(1) {
+    font-size: 14px !important;
+}
+
+.titulo-oradores>span:nth-child(2) {
+    font-size: 24px;
+}
+
+.card {
+    max-width: 330px;
+    margin-bottom: 40px;
+}
+
+/* .cards-contenedor {
+    width: 100vw;
+} */
 
 
 
 
+/* Breakpoint md */
+@media (min-width: 768px) {
+
+    /* Oradores */
+    .card {
+        max-width: 300px;
+        margin-bottom: 40px;
+        margin-left: 20px;
+    }
+
+}
 
 
 
@@ -47,6 +77,16 @@
         font-size: 27px;;
     }
 
+    /* Oradores */
+    .card {
+        max-width: 270px;
+        margin-bottom: 0;
+    }
+
+    .card-text {
+        font-size: 14px;
+    }
+
 
 
 }
@@ -64,4 +104,9 @@
         margin-bottom: 100px;
     }
 
+    /* Oradores */
+
+    .card {
+        max-width: 290px;
+    }
 }
