@@ -24,6 +24,16 @@
     background-repeat: no-repeat;
 }
 
+.btn-jumbotron {
+    background-color: #29a744;
+    border-color: #29a744;
+}
+
+.btn-jumbotron:hover {
+    background-color: #228437;
+    border-color: #228437;
+}
+
 
 /* Main-Oradores */
 .titulo-oradores>span:nth-child(1) {
@@ -58,10 +68,22 @@ textarea {
     height: 90px;
 }
 
+.btn-form {
+    background-color: 
+    #97c93f;
+    border-color: 
+    #97c93f;
+}
+
+.btn-form:hover {
+    background-color: #759c31;
+    border-color: #759c31;
+}
+
 
 /* Footer */
 .foot {
-    background-color: #1f4f6c !important;
+    background: linear-gradient(91deg, #1f4f6c, #1c5371);
 }
 
 footer a {
@@ -72,26 +94,6 @@ footer a {
 
 .div-link {
     margin-top: 5px;
-}
-
-.r {
-    background-color: palevioletred;
-}
-
-.a {
-    background-color: khaki;
-}
-
-.c {
-    background-color: aquamarine;
-}
-
-.v {
-    background-color: slateblue;
-}
-
-.n {
-    background-color: coral;
 }
 
 
