@@ -54,15 +54,45 @@
     font-size: 24px;
 }
 
-/* form {
-    background-color: palevioletred;
-} */
-
 textarea {
     height: 90px;
 }
 
 
+/* Footer */
+.foot {
+    background-color: #1f4f6c !important;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    /* margin-bottom: 10px; */
+}
+
+.div-link {
+    margin-top: 5px;
+}
+
+.r {
+    background-color: palevioletred;
+}
+
+.a {
+    background-color: khaki;
+}
+
+.c {
+    background-color: aquamarine;
+}
+
+.v {
+    background-color: slateblue;
+}
+
+.n {
+    background-color: coral;
+}
 
 
 /* Breakpoint md */
@@ -144,5 +174,22 @@ textarea {
 
     .card {
         max-width: 290px;
+    }
+
+    /* Footer */
+
+    .cont-footer {
+        height: 84px;
+    }
+
+}
+
+
+/* Breakpoint xxl */
+@media (min-width:1400px) {
+    /* Footer */
+
+    .cont-footer {
+        height: 95px;
     }
 }
