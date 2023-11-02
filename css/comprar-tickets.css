@@ -1,0 +1,14 @@
+/* Navbar */
+
+.navbar {
+    background-color: #353b41 !important;
+}
+
+.navbar-logo__img {
+    width: 85px;
+}
+
+#contenido-nav>ul li:last-child>a{
+    color: #80a63e !important;
+
+}
