@@ -111,14 +111,15 @@
             <form action="" class="">
                 <div class="nom-ape"> <!--nom-ape-->
                     <div>
-                        <input type="text" name="nombre" placeholder="Nombre" class="form-control">
+                        <input type="text" name="nombre"
+                        id="nombre" placeholder="Nombre" class="form-control">
                     </div>
                     <div>
-                        <input type="text" name="apellido" placeholder="Apellido" class="form-control ">
+                        <input type="text" name="apellido" id="apellido" placeholder="Apellido" class="form-control ">
                     </div>
                 </div>
                 <div class="correo"> <!--correo-->
-                    <input type="email" name="correo" placeholder="Correo" class="form-control">
+                    <input type="email" name="correo" id="mail" placeholder="Correo" class="form-control">
                 </div>
                 <div class="cant-cat"> <!-- cant-cat -->
                     <div>
@@ -128,10 +129,10 @@
                         <input type="number" id="cantidad" class="form-control" placeholder="Cantidad">
                     </div>
                     <div>
-                        <label for="categoria">
+                        <label>
                             Categoria
                         </label>
-                        <select class="form-select" aria-label="Selecciona una categoria">
+                        <select class="form-select" id="categoria" aria-label="Selecciona una categoria">
                             <option value="estudiante" selected>Estudiante</option>
                             <option value="trainee">Trainee</option>
                             <option value="junior">Junior</option>
@@ -144,10 +145,10 @@
                 </div>
                 <div class="botones"> <!-- botones -->
                     <div>
-                        <button type="button" class="btn btn-success">Borrar</button>
+                        <button type="button" class="btn btn-success" id="btn-borrar">Borrar</button>
                     </div>
                     <div>
-                        <button type="button" class="btn btn-success">Resumen</button>
+                        <button type="button" class="btn btn-success" id="btn-resumen">Resumen</button>
                     </div>
                 </div>
             </form>
