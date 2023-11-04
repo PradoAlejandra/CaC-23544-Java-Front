@@ -99,6 +99,44 @@ main>div:nth-child(1) {
     font-weight: 500;
 }
 
+/*------Main/formulario--------*/
+form{
+    margin-top: 12px;
+    font-size: 16px;
+}
+
+form input, form select {
+    font-size: 16px !important;
+}
+
+.nom-ape>div, .correo{
+    margin-bottom: 10px;
+}
+
+.cant-cat, .tot{
+    margin-bottom: 20px;
+}
+
+.cant-cat label{
+    margin-bottom: 3px;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-between;
+}
+.botones>div{
+    width: 49%;
+    display: inline-block;
+}
+
+.botones button {
+    width: 100%;
+    background-color: #96c93f;
+    border-color: #96c93f;
+
+}
+
 
 
 
@@ -115,6 +153,17 @@ main>div:nth-child(1) {
         max-width: 400px;
     }
 
+    /*------Main/formulario--------*/
+    .nom-ape, .cant-cat {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nom-ape>div, .cant-cat>div{
+        width: 49%;
+        display: inline-block;
+    }
+
 
 }
 
@@ -124,6 +173,11 @@ main>div:nth-child(1) {
 /* Breakpoint md */
 
 @media (min-width:768px) {
+
+    /* Ancho */
+    main>div:nth-child(1) {
+        width: 85%;
+    }
 
     /*Main/tarjetas*/
     .contenedor-tarjetas{
@@ -196,7 +250,7 @@ main>div:nth-child(1) {
 
 @media (min-width:1200px){
 
-    .contenedor-tarjetas{
+    .contenedor-tarjetas, .aux-xl{
         width: 85%;
         margin: 0 auto;;
     }
