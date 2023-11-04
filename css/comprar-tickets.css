@@ -31,7 +31,6 @@ main {
 
 /* Contenedor que da el ancho */
 main>div:nth-child(1) {
-    background-color: #80a63e;
     width: 90%;
     /* display: flex;
     flex-direction: column;
@@ -77,6 +76,27 @@ main>div:nth-child(1) {
 
 .tarjeta>p:nth-child(4){
     font-size: 0.9rem;
+}
+
+/*----Main/Título-------*/
+.tit>p{
+    display:inline-block;
+}
+
+.tit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tit>p:nth-child(1){
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.tit>p:nth-child(2){
+    font-size: 22px;
+    font-weight: 500;
 }
 
 
@@ -133,6 +153,18 @@ main>div:nth-child(1) {
         font-size: 0.8rem;
     }
 
+
+    /*----Main/Título-------*/
+
+    .tit>p:nth-child(1){
+        font-size: 15px;
+    }
+    
+    .tit>p:nth-child(2){
+        font-size: 30px;
+    }
+
+
 }
 
 
@@ -148,7 +180,6 @@ main>div:nth-child(1) {
     /* ------Main----- */
 
     /* Contenedor que da el ancho */main>div:nth-child(1) {
-        background-color: #80a63e;
         width: 70%;
     }
 
@@ -178,4 +209,7 @@ main>div:nth-child(1) {
 }
 .rosa{
     background-color: palevioletred;;
+}
+.verde{
+    background-color: #80a63e;
 }
