@@ -26,15 +26,11 @@ main {
     margin-top:74.7px;
     display: flex;
     justify-content: center;
-    /* border: 3px solid red; */
 }
 
 /* Contenedor que da el ancho */
 main>div:nth-child(1) {
     width: 90%;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
 }
 
 /*----------Tarjetas-------------*/
@@ -143,6 +139,11 @@ form input, form select {
     border-color: #759c31;
 }
 
+.botones button:active {
+    background-color: #648629 !important;
+    border-color: #648629 !important;
+}
+
 
 /*--------Footer------*/
 footer {
@@ -171,9 +172,6 @@ footer a {
 @media (min-width:576px){
 
     /*----------Tarjetas-------------*/
-    /* .contenedor-tarjetas{
-        flex-direction: row;
-    } */
 
     .tarjeta{
         max-width: 400px;
@@ -294,7 +292,8 @@ footer a {
 
     /* ------Main----- */
 
-    /* Contenedor que da el ancho */main>div:nth-child(1) {
+    /* Contenedor que da el ancho */
+    main>div:nth-child(1) {
         width: 70%;
     }
 
@@ -321,15 +320,4 @@ footer a {
         margin: 0 auto;;
     }
 
-}
-
-
-.borde {
-    border: 1px solid blue;
-}
-.rosa{
-    background-color: palevioletred;;
-}
-.verde{
-    background-color: #80a63e;
 }
