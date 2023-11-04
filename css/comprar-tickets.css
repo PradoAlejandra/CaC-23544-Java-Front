@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* Navbar */
 
 .navbar {
@@ -11,4 +17,165 @@
 #contenido-nav>ul li:last-child>a{
     color: #80a63e !important;
 
+}
+
+
+/*-------Main--------*/
+
+main {
+    margin-top:74.7px;
+    display: flex;
+    justify-content: center;
+    /* border: 3px solid red; */
+}
+
+/* Contenedor que da el ancho */
+main>div:nth-child(1) {
+    background-color: #80a63e;
+    width: 90%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+/*----------Tarjetas-------------*/
+
+.contenedor-tarjetas{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tarjeta{
+    /* min-width: 214px; */
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta>p{
+    display:inline-block;
+}
+
+.tarjeta>p:nth-child(1){
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.tarjeta>p:nth-child(2){
+    font-size: 1.2rem;
+}
+
+.tarjeta>p:nth-child(3){
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.tarjeta>p:nth-child(4){
+    font-size: 0.9rem;
+}
+
+
+
+
+
+/* Breakpoint sm */
+@media (min-width:576px){
+
+    /*----------Tarjetas-------------*/
+    /* .contenedor-tarjetas{
+        flex-direction: row;
+    } */
+
+    .tarjeta{
+        max-width: 400px;
+    }
+
+
+}
+
+
+
+
+/* Breakpoint md */
+
+@media (min-width:768px) {
+
+    /*Main/tarjetas*/
+    .contenedor-tarjetas{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .tarjeta{
+        width:32%;
+    }
+
+    .tarjeta>p:nth-child(1) {
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+    .tarjeta>p:nth-child(2) {
+        font-size: 1.1rem;
+    }
+
+    .tarjeta>p:nth-child(3) {
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+
+    .tarjeta>p:nth-child(4) {
+        font-size: 0.8rem;
+    }
+
+}
+
+
+
+
+
+
+
+/* Breakpoint lg */
+
+@media (min-width:992px){
+
+    /* ------Main----- */
+
+    /* Contenedor que da el ancho */main>div:nth-child(1) {
+        background-color: #80a63e;
+        width: 70%;
+    }
+
+    /*Main/tarjetas*/
+    .tarjeta{
+        max-width: 238px;
+    }
+}
+
+
+
+
+/* Breakpoint xl */
+
+@media (min-width:1200px){
+
+    .contenedor-tarjetas{
+        width: 85%;
+        margin: 0 auto;;
+    }
+
+}
+
+
+.borde {
+    border: 1px solid blue;
+}
+.rosa{
+    background-color: palevioletred;;
 }
