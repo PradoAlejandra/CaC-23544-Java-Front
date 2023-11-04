@@ -138,6 +138,11 @@ form input, form select {
 
 }
 
+.botones button:hover {
+    background-color: #759c31;
+    border-color: #759c31;
+}
+
 
 /*--------Footer------*/
 footer {
