@@ -204,6 +204,12 @@ footer a {
     }
 
     /*Main/tarjetas*/
+
+    main {
+        height: 80vh;
+        align-items: center;
+    }
+
     .contenedor-tarjetas{
         flex-direction: row;
         justify-content: space-evenly;
@@ -211,7 +217,7 @@ footer a {
 
     .tarjeta{
         width:32%;
-        margin-top: 30px !important;
+        margin-top: 0px !important;
     }
 
     .tarjeta>p:nth-child(1) {
@@ -254,7 +260,7 @@ footer a {
     }
 
     .botones{
-        margin-bottom: 26px;
+        margin-bottom: 0px;
     }
 
     form input,form select,form {
