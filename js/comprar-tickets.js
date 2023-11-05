@@ -25,9 +25,16 @@ borrar.addEventListener('click',() =>{
 //Agrego el evento click al btn resumen
 resumen.addEventListener('click',()=>{
 
-    let importe= calcularTotal(cantidad.value,categoria.value);
+    if(validacionDeCamposRequeridos([nombre,apellido,mail,cantidad]) && validacionNumeroPositivo(cantidad)){
 
-    modificarTexto('total',importe);
+        let importe= calcularTotal(cantidad.value,categoria.value);
+
+        modificarTexto('total',importe);
+
+    }
+    // else{
+    //     alert('Algo no andubo bien');
+    // }
 
 
 })
@@ -54,4 +61,30 @@ function calcularTotal(cant,cat){
 
 function modificarTexto(id,textNuevo){
     document.getElementById(id).innerText = textNuevo;
+}
+
+function validacionDeCamposRequeridos(campos){
+
+    //Si alguno de los campos están vacios se los agrega a una lista
+    for(let valor of campos){
+        if(valor.value===''){
+            total.innerText='';
+            alert('Todos los campos son requeridos');
+            return false;
+        }
+    }
+
+    return true;
+
+}
+
+function validacionNumeroPositivo(campo){
+    
+    if(Number(campo.value)>0){
+        return true
+    }else{
+        total.innerText='';
+        alert('El campo cantidad debe ser mayor a 0');
+        return false;
+    }
 }
