@@ -96,6 +96,12 @@ footer a {
     margin-top: 5px;
 }
 
+@media (max-width:575px){
+    .contenido-jumbotron{
+        padding: 0px !important;
+    }
+}
+
 
 /* Breakpoint md */
 @media (min-width: 768px) {
