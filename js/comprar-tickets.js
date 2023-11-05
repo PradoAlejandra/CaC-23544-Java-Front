@@ -84,7 +84,7 @@ function validacionNumeroPositivo(campo){
         return true
     }else{
         total.innerText='';
-        alert('El campo cantidad debe ser mayor o igual a 1');
+        alert('El campo cantidad debe ser mayor a 0');
         return false;
     }
 }
